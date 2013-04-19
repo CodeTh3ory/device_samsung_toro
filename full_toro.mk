@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from toro device
-$(call inherit-product, device/samsung/toro/device_vzw.mk)# Camera
+$(call inherit-product, device/samsung/toro/device_vzw.mk)
 
 # Device Parts
 PRODUCT_PACKAGES := \
