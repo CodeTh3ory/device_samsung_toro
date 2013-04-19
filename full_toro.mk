@@ -22,7 +22,11 @@ PRODUCT_COPY_FILES += \
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from toro device
-$(call inherit-product, device/samsung/toro/device_vzw.mk)
+$(call inherit-product, device/samsung/toro/device_vzw.mk)# Camera
+
+# Device Parts
+PRODUCT_PACKAGES := \
+    GNexusParts
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_toro
