@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/codex.mk
+    $(LOCAL_DIR)/axi0m.mk

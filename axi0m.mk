@@ -21,15 +21,15 @@ PRODUCT_RELEASE_NAME := GN-CDMA
 $(call inherit-product-if-exists, device/samsung/toro/full_toro.mk)
 
 # cdma
-$(call inherit-product, vendor/codex/config/common_cdma.mk)
+$(call inherit-product, vendor/axi0m/config/common_cdma.mk)
 
 # phone
-$(call inherit-product, vendor/codex/config/common_phone.mk)
+$(call inherit-product, vendor/axi0m/config/common_phone.mk)
 
 # products
 PRODUCT_DEVICE := toro
 PRODUCT_BRAND := Google
-PRODUCT_NAME := codex_toro
+PRODUCT_NAME := axi0m_toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 
