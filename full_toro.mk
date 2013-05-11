@@ -24,9 +24,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from toro device
 $(call inherit-product, device/samsung/toro/device_vzw.mk)
 
-PRODUCT_PACKAGES := \
-GNexusParts
-
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_toro
 PRODUCT_DEVICE := toro
