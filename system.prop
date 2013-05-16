@@ -22,14 +22,3 @@ ro.ril.ecclist=112,911,#911,*911
 # Default to LTE/CDMA Network Mode
 ro.telephony.default_network=7
 
-# Dalvik
-dalvik.vm.heapsize=512m
-dalvik.vm.heapmaxfree=16m
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapstartsize=32m
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.execution-mode=int:jit
-dalvik.vm.lockprof.threshold=850
-dalvik.vm.verify-bytecode=false
-dalvik.vm.dexopt-flags=m=y,v=n,o=v
